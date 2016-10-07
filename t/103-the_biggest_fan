@@ -1,2 +1,0 @@
-#!/bin/bash
-cut -d$'\t' -f1 | sort | uniq -c | sort -nr | cut -d' ' -f6 | head -11
